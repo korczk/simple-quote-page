@@ -3,10 +3,19 @@
   
 }
 
-.quote {
-  
+.quote, .author {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
 }
 
 .author {
-  
+  top: 250px;
+}
+
+.quote {
+  font-size: 3rem;
+  padding-top: 2rem;
 }
